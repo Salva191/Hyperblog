@@ -2,33 +2,30 @@ body {
   color: rgb(19, 10, 10);
   text-align: center;
   font-family: 'Arial';
-  font-size: 26px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
 }
 
 
-#hyper{
-  position: relative;
 
-  align-content: center;
-}
 
 
 #cabecera {
   box-shadow: 0px 2px 20px 0px ;
   color: rgb(39, 24, 82);
-  font-weight: bolder;
-  margin: 0;
- flood-color: chocolate;
+  font-weight: bold;
+  margin-left: 50px;
   background-color: cyan;
 }
 
 #cabecera #tagline {
 
   font-weight: bold;
-  font-size: 0.8em;
-  position: fixed;
+  font-size: 1em;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 30px;
 }
 
 #container {
@@ -42,18 +39,9 @@ body {
 }
 
 
-
-#hyper{
- 
-  margin: 20px auto;
-  position:relative;
- 
-}
-
-
 #container h1 {
   background: white;
-  font-size: 20px;
+  font-size: 5em;
   color: blue;
 }
 
@@ -61,5 +49,5 @@ body {
 width: 70px;
 height: 70px ;
 background-color: chartreuse;
-
+margin-right: 30px;
 }
