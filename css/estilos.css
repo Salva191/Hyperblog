@@ -1,53 +1,52 @@
-body {
-  color: rgb(19, 10, 10);
-  text-align: center;
-  font-family: 'Arial';
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
+body
+{
+    background: #1e1f24;
+    color: #333;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-
-
-#cabecera {
-  box-shadow: 0px 2px 20px 0px ;
-  color: rgb(39, 24, 82);
-  font-weight: bold;
-  margin-left: 50px;
-  background-color: cyan;
+#cabecera
+{
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
 }
 
-#cabecera #tagline {
-
-  font-weight: bold;
-  font-size: 1em;
-  position: absolute;
-  margin-top: 25px;
-  margin-left: 30px;
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
-#container {
-  width: 70%;
-  padding: 1em;
-  text-align: left;
-  border: 1px solid #ddd;
-  margin: 0 auto;
-  position:relative;
- 
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
-
-#container h1 {
-  background: white;
-  font-size: 5em;
-  color: blue;
+#container
+{
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
 }
 
-#logo{
-width: 70px;
-height: 70px ;
-background-color: chartreuse;
-margin-right: 30px;
+#container h1
+{
+    font-size: 20px;
+}
+#post
+{
+    background: white;
+    padding: 1em;
 }
